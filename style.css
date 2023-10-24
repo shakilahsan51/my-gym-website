@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+
+    background-image: url(image/pexels-leon-ardho-1552252.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    left: 30px;
+    top: 25px;
+    /* border: 2px solid red; */
+}
+
+.left div {
+    font-size: 22px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.left img {
+    width: 110px;
+    filter: invert(100%);
+}
+
+.mid {
+    display: block;
+    /* border: 2px solid green; */
+    margin: 25px auto;
+    width: 30%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 35px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navbar li a:hover {
+    color: aqua;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    /* border: 2px solid blue; */
+    right: 30px;
+    top: 25px;
+
+}
+
+.btn {
+    background: black;
+    margin: 0px 10px;
+    font-size: 17px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 50px;
+}
+
+.btn:hover {
+    color: aqua;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 190px 179px;
+    width: 33%;
+    padding: 59px 33px;
+    border-radius: 21px;
+    text-align: center;
+
+}
+
+.container h1 {
+    margin-bottom: 30px;
+}
+
+.form-group input {
+    border-radius: 20px;
+}
+
+.form-group input {
+    text-align: center;
+    margin: 8px 24px;
+    padding: 6px 68px;
+    font-size: 18px;
+    color: black;
+}
